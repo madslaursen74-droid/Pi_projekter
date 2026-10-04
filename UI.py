@@ -1,7 +1,7 @@
 from gpiozero import RotaryEncoder, Button
 from luma.core.interface.serial import i2c
 from luma.oled.device import ssd1306
-from luma.oled.render import canvas
+from luma.core.render import canvas
 from PIL import ImageFont
 from signal import pause
 import time
